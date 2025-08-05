@@ -3,7 +3,7 @@ import './index.css';
 const App = () => {
   return (
     <div style={styles.container}>
-      <h1>Hello GIT!</h1>
+      <h1>Hello hi GIT!</h1>
       <p>This is deployed page</p>
     </div>
   );
