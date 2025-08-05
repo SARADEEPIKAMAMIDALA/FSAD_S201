@@ -1,20 +1,15 @@
+import React from 'react';
 import './index.css';
 
-const App = () => {
+function App() {
   return (
-    <div style={styles.container}>
-      <h1>Hello hi GIT!</h1>
-      <p>This is deployed page</p>
+    <div className="app">
+      <div className="content-box">
+        <h1>Deployed Page</h1>
+        <p>SECTION - S201</p>
+      </div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    textAlign: 'center',
-    marginTop: '100px',
-    fontFamily: 'Arial, sans-serif',
-  },
-};
+}
 
 export default App;
